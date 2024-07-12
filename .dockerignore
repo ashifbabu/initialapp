@@ -1,4 +1,5 @@
 node_modules
 .next
-.git
-.env
+dockerfile
+docker-compose.yml
+
