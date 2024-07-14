@@ -1,12 +1,11 @@
-import React from 'react';
+import Image from 'next/image';
 
-const Navbar: React.FC = () => {
-  return (
-    <div>
-      <img src="/logo.svg" alt="Logo" width="96" height="48" />
-    </div>
-  );
+const Navbar = () => {
+    return (
+        <div>
+            <Image src="/logo.svg" alt="Logo" width={90} height={32} />
+        </div>
+    );
 };
 
 export default Navbar;
-
